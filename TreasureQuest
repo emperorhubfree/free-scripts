@@ -1,6 +1,10 @@
 print("paid, join to buy https://discord.gg/sgauVmTB3g")
 
+
+
 game:service'StarterGui':SetCore("SendNotification", {
         Title = "Paid now :)";
         Text = "> Join for script < https://discord.gg/sgauVmTB3g ";
     })
+
+game.Players.LocalPlayer:Kick("Join for script < https://discord.gg/sgauVmTB3g > (paid)")
